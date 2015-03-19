@@ -1,0 +1,17 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=5138
+
+"vim-markdown-wiki" is plugin which eases the navigation between files in a personnal wiki
+Links syntax follows Github Flavored Markdown ie [My displayed link](My-link.md)
+
+Usage
+-----
+Link creation : 
+ - Hit the ENTER key when the cursor is on a text between brackets : `[a title]`
+ - The link will be created  `[a title](a-title.md)` and the corresponding file will be loaded in the buffer.
+
+Navigation : 
+ - Hit the ENTER key when the cursor is on a wiki link
+ - The corresponding link file is loaded in the current buffer.
+ - Hit Shift + ENTER to go back
+
+
